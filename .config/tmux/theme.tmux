@@ -18,7 +18,7 @@ set -g status-left "#[fg=#15161e,bg=#7aa2f7,bold] SESSION: [#S] "
 
 set -g status-right-style NONE
 set -g status-right-length "100"
-set -g status-right "#[fg=#15161e,bg=#7aa2f7,bold] WINDOW: [#W] "
+set -g status-right "#[fg=#15161e,bg=#7aa2f7,bold] EXEC: [#W] "
 
 setw -g window-status-separator ""
 
