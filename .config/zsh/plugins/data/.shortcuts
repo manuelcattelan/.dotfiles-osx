@@ -1,0 +1,7 @@
+alacritty:~/.dotfiles/.config/alacritty
+config:~/.config
+dev:~/Development
+dots:~/.dotfiles
+nvim:~/.dotfiles/.config/nvim
+tmux:~/.dotfiles/.config/tmux
+zsh:~/.dotfiles/.config/zsh
