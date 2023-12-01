@@ -1,0 +1,9 @@
+#!/bin/zsh
+##? zshaddhistory - prevent specific commands from being added to zsh history.
+
+excluded_commands=("wd" "pf" "pd")
+for command in "${excluded_commands[@]}"; do
+    if [[ $1 =~ "$command" ]]; then
+        return 1
+    fi;
+done;
