@@ -1,0 +1,4 @@
+#!/bin/zsh
+##? fuzzydir - fuzzy find directory and cd into it.
+
+directory="$(fd --type d --hidden --exclude .git | fzf)" && cd "$directory"

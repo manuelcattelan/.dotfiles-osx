@@ -1,0 +1,4 @@
+#!/bin/zsh
+##? fuzzyfile - fuzzy find file and open it with $EDITOR.
+
+file="$(fd --type f --hidden --exclude .git | fzf)" && ${EDITOR:-nvim} "$file" && print -s "${EDITOR:-nvim} "$file""

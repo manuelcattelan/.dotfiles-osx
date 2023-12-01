@@ -43,6 +43,7 @@ $ZDOTDIR/custom/keybindings.zsh
 $ZDOTDIR/plugins/config/cd-ls.zsh
 $ZDOTDIR/plugins/config/wd.zsh
 $ZDOTDIR/plugins/config/zsh-abbr.zsh
+$ZDOTDIR/plugins/config/fzf.zsh
 
 ### Local Plugins with Variables
 #
