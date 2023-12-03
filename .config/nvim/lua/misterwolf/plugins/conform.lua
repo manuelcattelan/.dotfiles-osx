@@ -7,6 +7,7 @@ return {
     formatters_by_ft = {
       lua = { "stylua" },
       typescript = { "prettierd" },
+      rust = { "rustfmt" },
     },
     format_on_save = function(buffer_number)
       if slow_filetype_formatting[vim.bo[buffer_number].filetype] then
