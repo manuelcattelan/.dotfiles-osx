@@ -2,6 +2,9 @@ alacritty:~/.dotfiles/.config/alacritty
 config:~/.config
 dev:~/Development
 dots:~/.dotfiles
+lang:~/Development/languages
 nvim:~/.dotfiles/.config/nvim
+repos:~/Development/repos
 tmux:~/.dotfiles/.config/tmux
+work:~/Development/work
 zsh:~/.dotfiles/.config/zsh
