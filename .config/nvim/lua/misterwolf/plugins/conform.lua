@@ -3,11 +3,22 @@ local slow_filetype_formatting = {}
 return {
   "stevearc/conform.nvim",
   event = { "BufWritePre" },
+  keys = {
+    {
+      "<leader>ff",
+      function()
+        require("conform").format({ async = true, lsp_fallback = true })
+      end,
+      mode = "",
+      desc = "Format buffer",
+    },
+  },
   opts = {
     formatters_by_ft = {
       lua = { "stylua" },
       typescript = { "prettierd" },
       rust = { "rustfmt" },
+      sql = { "sqlfluff" },
     },
     format_on_save = function(buffer_number)
       if slow_filetype_formatting[vim.bo[buffer_number].filetype] then
