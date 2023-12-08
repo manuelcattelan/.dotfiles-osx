@@ -1,4 +1,6 @@
 abbr "ga"="git add"
-abbr "gd"="git diff"
-abbr "gs"="git status"
 abbr "gcm"="git commit -m"
+abbr "gd"="git diff"
+abbr "gr"="git restore"
+abbr "gs"="git status"
+abbr "gp"="git push"
